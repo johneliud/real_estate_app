@@ -12,17 +12,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // For simplicity, providing the repository here.
-    // For larger apps, use get_it or another DI solution.
     return RepositoryProvider(
       create: (context) => PropertyRepository(),
       child: MaterialApp(
         title: 'Real Estate App',
         theme: ThemeData(
-            primarySwatch: Colors.teal, // Or any color you like
-            // You can customize the theme further
+            primarySwatch: Colors.teal,
             textTheme: const TextTheme(
-              // Example of customizing text styles
               headlineSmall: TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
               titleLarge: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600),
               bodyLarge: TextStyle(fontSize: 16.0),
