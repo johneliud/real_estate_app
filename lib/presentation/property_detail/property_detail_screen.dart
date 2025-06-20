@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../data/models/property_model.dart';
+// import '../../data/models/property_model.dart';
 import '../../data/repositories/property_repository.dart';
 import 'cubit/property_detail_cubit.dart';
 
